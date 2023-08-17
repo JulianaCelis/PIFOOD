@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/JulianaCelis/PIFOOD.git/static/css/main.28bcf491.css",
-    "main.js": "/JulianaCelis/PIFOOD.git/static/js/main.b3223c0e.js",
-    "static/js/496.e8eee70e.chunk.js": "/JulianaCelis/PIFOOD.git/static/js/496.e8eee70e.chunk.js",
-    "static/media/homepage.jpg": "/JulianaCelis/PIFOOD.git/static/media/homepage.22cf019ce3a8574816be.jpg",
-    "static/media/aguacate.png": "/JulianaCelis/PIFOOD.git/static/media/aguacate.640fb8d2fc46274ab8a9.png",
-    "index.html": "/JulianaCelis/PIFOOD.git/index.html",
-    "main.28bcf491.css.map": "/JulianaCelis/PIFOOD.git/static/css/main.28bcf491.css.map",
-    "main.b3223c0e.js.map": "/JulianaCelis/PIFOOD.git/static/js/main.b3223c0e.js.map",
-    "496.e8eee70e.chunk.js.map": "/JulianaCelis/PIFOOD.git/static/js/496.e8eee70e.chunk.js.map"
+    "main.css": "/PIFOOD/static/css/main.a1e1d3c7.css",
+    "main.js": "/PIFOOD/static/js/main.dd832ccf.js",
+    "static/js/496.e8eee70e.chunk.js": "/PIFOOD/static/js/496.e8eee70e.chunk.js",
+    "static/media/homepage.jpg": "/PIFOOD/static/media/homepage.22cf019ce3a8574816be.jpg",
+    "static/media/aguacate.png": "/PIFOOD/static/media/aguacate.640fb8d2fc46274ab8a9.png",
+    "index.html": "/PIFOOD/index.html",
+    "main.a1e1d3c7.css.map": "/PIFOOD/static/css/main.a1e1d3c7.css.map",
+    "main.dd832ccf.js.map": "/PIFOOD/static/js/main.dd832ccf.js.map",
+    "496.e8eee70e.chunk.js.map": "/PIFOOD/static/js/496.e8eee70e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28bcf491.css",
-    "static/js/main.b3223c0e.js"
+    "static/css/main.a1e1d3c7.css",
+    "static/js/main.dd832ccf.js"
   ]
 }

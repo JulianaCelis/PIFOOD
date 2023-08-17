@@ -1,0 +1,10 @@
+.front{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+}
+
+.pag {
+    margin-top: 60px;
+}

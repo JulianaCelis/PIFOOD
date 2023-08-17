@@ -1,0 +1,26 @@
+const { Recipe, Diet } = require('../db');
+
+const removeRecipeById = async (id) => {
+  try {
+    const deletedRecipe = await Recipe.destroy({
+      where: {
+        id: id
+      }
+    });
+
+    if (deletedRecipe === 0) {
+      throw new Error('Receta no encontrada');
+    }
+
+    return 'Receta eliminada exitosamente';
+  } catch (error) {
+    console.error('Error al eliminar la receta:', error);
+    throw error;
+  }
+};
+
+module.exports = removeRecipeById
+
+
+
+

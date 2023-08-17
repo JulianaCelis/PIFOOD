@@ -1,0 +1,68 @@
+/* Card.module.css */
+
+.card {
+    width: calc(33.33% - 1rem);
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: 'Poppins', sans-serif; /* Usamos la fuente 'Poppins' */
+    color: black; /* Cambiamos el color de las letras a negro */
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    box-shadow: 0px 0px 30px 2px #f0eeee;
+}
+
+.link {
+    color: black; /* Mantenemos el color de las letras a negro */
+    text-decoration: none; /* Quitamos la decoración de enlace */
+    font-family: 'Poppins', sans-serif; /* Aplicamos la fuente Poppins */
+    font-size: 12px; /* Ajustamos el tamaño de fuente del enlace */
+}
+
+.description {
+    flex: 1;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.recipeImg {
+    width: 100%;
+    height: auto;
+    border-radius: 11px;
+}
+
+.dietTags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0.25cm;
+    padding: 1px;
+}
+
+.dietTag {
+    background-color: #f0eeee;
+    color: #333;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.healthScore {
+    background-color: #4CAF50;
+    color: rgb(66, 66, 66);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.healthScoreTitle {
+    margin-right: 5px;
+}

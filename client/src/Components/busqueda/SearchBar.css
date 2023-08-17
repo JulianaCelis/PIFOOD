@@ -1,0 +1,53 @@
+/* En SearchBar.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+    border: 1px solid #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+@media (max-width: 480px) {
+    input {
+        font-size: 12px;
+    }
+    button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}

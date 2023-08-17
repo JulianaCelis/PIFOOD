@@ -1,0 +1,47 @@
+/* En Nav.module.css */
+.container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    background-color: rgba(26, 89, 107, 0.7); /* Color con transparencia */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container button,
+.container select {
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgba(19, 77, 91, 0.7); /* Color con transparencia */
+    color: white;
+    margin: 4px;
+}
+
+.container label {
+    font-size: 14px;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .container button,
+    .container select {
+        width: 100%;
+    }
+}

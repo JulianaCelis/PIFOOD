@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/JulianaCelis/PIFOOD.git/static/css/main.28bcf491.css",
+    "main.js": "/JulianaCelis/PIFOOD.git/static/js/main.b3223c0e.js",
+    "static/js/496.e8eee70e.chunk.js": "/JulianaCelis/PIFOOD.git/static/js/496.e8eee70e.chunk.js",
+    "static/media/homepage.jpg": "/JulianaCelis/PIFOOD.git/static/media/homepage.22cf019ce3a8574816be.jpg",
+    "static/media/aguacate.png": "/JulianaCelis/PIFOOD.git/static/media/aguacate.640fb8d2fc46274ab8a9.png",
+    "index.html": "/JulianaCelis/PIFOOD.git/index.html",
+    "main.28bcf491.css.map": "/JulianaCelis/PIFOOD.git/static/css/main.28bcf491.css.map",
+    "main.b3223c0e.js.map": "/JulianaCelis/PIFOOD.git/static/js/main.b3223c0e.js.map",
+    "496.e8eee70e.chunk.js.map": "/JulianaCelis/PIFOOD.git/static/js/496.e8eee70e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28bcf491.css",
+    "static/js/main.b3223c0e.js"
+  ]
+}
